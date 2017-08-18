@@ -22,6 +22,12 @@ namespace Dining
             SetContentView(Resource.Layout.Main);
 
             var recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerView);
+            //LinearLayoutManager arranges your items in a single column or row
+            var linearLayautManager = new LinearLayoutManager(this, //Context
+                LinearLayoutManager.Vertical, //Orientation
+                false);//Reverse (e.g. in a vertical list, it would layout items from bottom to top)
+            //add LinearLayoutManager to recyclerView
+            recyclerView.SetLayoutManager(linearLayautManager);
         }
     }
 }
