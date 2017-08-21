@@ -3,6 +3,7 @@
   <ManifestDocuments>
     <ManifestDocument>obj\Release\__library_projects__\Xamarin.Android.Support.Compat\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\__library_projects__\Xamarin.Android.Support.Core.UI\library_project_imports\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
   <NativeLibraries />
@@ -10,6 +11,7 @@
     <Jar>obj\Release\__library_projects__\Xamarin.Android.Support.Annotations\library_project_imports\support-annotations.jar</Jar>
     <Jar>obj\Release\__library_projects__\Xamarin.Android.Support.Compat\library_project_imports\bin\classes.jar</Jar>
     <Jar>obj\Release\__library_projects__\Xamarin.Android.Support.Core.UI\library_project_imports\bin\classes.jar</Jar>
+    <Jar>obj\Release\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\bin\classes.jar</Jar>
     <Jar>obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\bin\classes.jar</Jar>
   </Jars>
 </Paths>

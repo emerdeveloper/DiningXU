@@ -2,11 +2,13 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\wrkspcXamarin\XamarinUniversity\New folder\Dining\DiningXU\Dining\obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\wrkspcXamarin\XamarinUniversity\Dining\Dining\obj\Release\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\wrkspcXamarin\XamarinUniversity\Dining\Dining\obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories />
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\wrkspcXamarin\XamarinUniversity\New folder\Dining\DiningXU\Dining\obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\wrkspcXamarin\XamarinUniversity\Dining\Dining\obj\Release\__library_projects__\Xamarin.Android.Support.v7.CardView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\wrkspcXamarin\XamarinUniversity\Dining\Dining\obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

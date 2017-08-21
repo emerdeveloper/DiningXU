@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>21/08/2017 02:25:10 p.m.</xs:documentation>
+    <xs:documentation>21/08/2017 04:40:08 p.m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -296,6 +296,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -388,6 +392,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -775,6 +783,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -1088,6 +1100,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1199,6 +1215,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -1340,6 +1359,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -1664,6 +1686,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1775,6 +1801,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1867,6 +1897,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2340,6 +2374,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2451,6 +2489,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -2998,6 +3040,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -3041,6 +3086,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -3084,6 +3132,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -3127,6 +3178,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -3227,6 +3281,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -4007,6 +4065,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -4852,6 +4913,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -4895,6 +4959,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -4938,6 +5005,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -4981,6 +5051,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -5024,6 +5097,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -5067,6 +5143,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -5519,6 +5598,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -5611,6 +5694,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -5937,6 +6024,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6465,6 +6556,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -6508,6 +6602,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -6569,6 +6666,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -6882,6 +6983,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -7195,6 +7300,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -7508,6 +7617,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -7551,6 +7663,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -7864,6 +7980,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -8177,6 +8297,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8288,6 +8412,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -8893,6 +9021,9 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -8936,6 +9067,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -9251,6 +9386,9 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -9648,6 +9786,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -10191,6 +10332,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -10778,6 +10922,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -11253,6 +11401,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -11631,6 +11783,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -13777,6 +13933,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -15403,6 +15563,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -16224,6 +16388,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -16784,6 +16952,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -16908,6 +17079,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18056,6 +18230,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -18167,6 +18345,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18210,6 +18391,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18253,6 +18437,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18296,6 +18483,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18893,6 +19083,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18936,6 +19129,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -18979,6 +19175,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -19022,6 +19221,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -19932,6 +20134,9 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -19975,6 +20180,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20018,6 +20226,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20061,6 +20272,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20104,6 +20318,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20147,6 +20364,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20190,6 +20410,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20233,6 +20456,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20290,6 +20516,9 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="match_parent" />
             <xs:enumeration value="wrap_content" />
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20655,6 +20884,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -20750,6 +20982,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -21233,6 +21469,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -21335,6 +21574,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -21414,6 +21656,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -21596,6 +21841,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -21657,6 +21905,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -23721,6 +23972,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -23813,6 +24068,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -23905,6 +24164,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -23997,6 +24260,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -24449,6 +24716,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -24762,6 +25033,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -25091,6 +25366,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25134,6 +25412,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25177,6 +25458,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25220,6 +25504,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25263,6 +25550,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25306,6 +25596,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25349,6 +25642,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -25524,6 +25820,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -25837,6 +26137,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -26185,6 +26488,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -26530,6 +26837,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -27194,6 +27505,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -27597,6 +27912,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -28693,6 +29011,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -28736,6 +29057,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -29265,6 +29589,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -29650,6 +29978,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -30197,6 +30529,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -30240,6 +30575,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -30283,6 +30621,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -30647,6 +30989,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -31000,6 +31346,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -31178,6 +31527,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -31853,6 +32206,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@style/Base_CardView" />
+            <xs:enumeration value="@style/CardView" />
+            <xs:enumeration value="@style/CardView_Dark" />
+            <xs:enumeration value="@style/CardView_Light" />
             <xs:enumeration value="@style/XamarinDesignerCustomAppliedTheme" />
             <xs:enumeration value="@android:style/Animation" />
             <xs:enumeration value="@android:style/Animation.Activity" />
@@ -33253,6 +33610,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -33579,6 +33940,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -33622,6 +33986,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -35022,6 +35389,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -35335,6 +35706,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -35648,6 +36023,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -35961,6 +36340,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -39048,6 +39431,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -39107,6 +39493,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@style/Base_CardView" />
+            <xs:enumeration value="@style/CardView" />
+            <xs:enumeration value="@style/CardView_Dark" />
+            <xs:enumeration value="@style/CardView_Light" />
             <xs:enumeration value="@style/XamarinDesignerCustomAppliedTheme" />
             <xs:enumeration value="@android:style/Animation" />
             <xs:enumeration value="@android:style/Animation.Activity" />
@@ -40232,6 +40622,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -40275,6 +40668,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -40318,6 +40714,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -40656,6 +41056,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -40823,6 +41227,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -40968,6 +41376,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41011,6 +41422,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41054,6 +41468,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41097,6 +41514,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41140,6 +41560,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41417,6 +41840,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -41509,6 +41936,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41826,6 +42256,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -41953,6 +42387,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -41996,6 +42433,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -42120,6 +42560,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -42163,6 +42606,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -42206,6 +42652,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -42266,6 +42715,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -42358,6 +42811,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -42779,6 +43236,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -43540,6 +44000,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -43853,6 +44317,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
@@ -44178,6 +44646,9 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@dimen/cardview_compat_inset_shadow" />
+            <xs:enumeration value="@dimen/cardview_default_elevation" />
+            <xs:enumeration value="@dimen/cardview_default_radius" />
             <xs:enumeration value="@dimen/item_touch_helper_max_drag_scroll_per_frame" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_max_velocity" />
             <xs:enumeration value="@dimen/item_touch_helper_swipe_escape_velocity" />
@@ -44689,6 +45160,10 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@color/cardview_dark_background" />
+            <xs:enumeration value="@color/cardview_light_background" />
+            <xs:enumeration value="@color/cardview_shadow_end_color" />
+            <xs:enumeration value="@color/cardview_shadow_start_color" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
