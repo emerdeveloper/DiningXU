@@ -16,6 +16,7 @@ namespace Dining
     public class RestaurantAdapter : RecyclerView.Adapter
     {
         List<Restaurant> restaurants;
+        public event EventHandler<int> ItemClick;//Evento
 
         public RestaurantAdapter(List<Restaurant> restaurants)
         {
@@ -28,7 +29,7 @@ namespace Dining
         {//first inflate your Restaurant.axml
             var layout = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.Restaurant, parent, false);
             // create a view holder passing the inflated layout file to the view-holder constructor
-            return new RestaurantViewHolder(layout);
+            return new RestaurantViewHolder(layout, OnItemClick);//we match the Adapter with Holder
         }
         // load the new data into your views.
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
@@ -37,6 +38,15 @@ namespace Dining
             //Use the view holder to load the new data at the given position into your views
             vh.Name.Text = restaurants[position].Name;
             vh.Rating.Rating = restaurants[position].Rating;
+        }
+
+        //report it to the client code
+        void OnItemClick(int position)
+        {
+            /*if (ItemClick != null) {
+                ItemClick(this, position);
+            }*/
+            ItemClick?.Invoke(this, position);
         }
     }
 }

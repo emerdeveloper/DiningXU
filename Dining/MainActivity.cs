@@ -28,7 +28,14 @@ namespace Dining
             recyclerView.SetLayoutManager(linearLayautManager);
 
             var adapter = new RestaurantAdapter(SampleData.GetRestaurants());
+            System.Diagnostics.Debug.WriteLine("cantidad de elementos" + SampleData.GetRestaurants().Count);
+            adapter.ItemClick += OnItemClick;//Subscribe a handler to your adapter's ItemClick event
             recyclerView.SetAdapter(adapter);
+        }
+
+        private void OnItemClick(object sender, int e)
+        {
+            System.Diagnostics.Debug.WriteLine("Click"+ e);//print out the position of the click.
         }
     }
 }

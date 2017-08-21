@@ -25,11 +25,26 @@ namespace Dining
     {
         public TextView Name { get; set; }
         public RatingBar Rating { get; set; }
+        Action<int> listener;
 
-        public RestaurantViewHolder(View itemView ) : base(itemView)
+        public RestaurantViewHolder(View itemView, Action<int> listener) : base(itemView)
         {
+            this.listener = listener;
+            itemView.Click += OnClickItem;
             Name = itemView.FindViewById<TextView>(Resource.Id.nameTextView);
             Rating = itemView.FindViewById<RatingBar>(Resource.Id.ratingBar);
+        }
+
+        //retrieve the AdapterPosition
+        //detect the user's action
+        private void OnClickItem(object sender, EventArgs e)
+        {
+            int position = base.AdapterPosition;
+
+            //check for null before you invoke the listener; the solution won't do this to keep the code simple
+            if (position == RecyclerView.NoPosition) { return; }
+
+            listener(position);
         }
     }
 }
