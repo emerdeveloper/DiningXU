@@ -12,8 +12,6 @@ namespace Dining
     [Activity(Label = "Dining", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
-
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -28,6 +26,9 @@ namespace Dining
                 false);//Reverse (e.g. in a vertical list, it would layout items from bottom to top)
             //add LinearLayoutManager to recyclerView
             recyclerView.SetLayoutManager(linearLayautManager);
+
+            var adapter = new RestaurantAdapter(SampleData.GetRestaurants());
+            recyclerView.SetAdapter(adapter);
         }
     }
 }
